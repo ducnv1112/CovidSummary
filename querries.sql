@@ -1,7 +1,7 @@
 ﻿USE PortfolioProject;
 
 -- The database includes data related to the Covid 19 epidemic such as the number of infections, the number of deaths, or the number of people vaccinated, etc.
--- The data was collected from 210 countries and territories around the world, starting from January 1, 2020 to April 30, 2022 which was the period when the Covid-19 pandemic broke out and was at its most complex.
+-- The data was collected from 210 countries and territories around the world, starting from January 1, 2020 to April 30, 2021 which was the period when the Covid-19 pandemic broke out and was at its most complex.
 -- 1. What is the percentage of the number of deaths to the number of infections worldwide?
 SELECT
 	SUM(new_cases) AS total_cases,
